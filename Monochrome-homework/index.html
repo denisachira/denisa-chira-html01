@@ -15,15 +15,20 @@
 
   <link
     rel="stylesheet"
+    href="css/style.css"
+  >
+  <link
+    rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   >
+
 </head>
 
 <body>
-  <header class="header">
+  <header class="header container">
     <div class="header-top">
       <section class="header-contact">
         <div class="header-social-contact">
@@ -108,7 +113,7 @@
             href=""
             title="My account"
           >
-            <i class="far fa-user"></i>
+            <i class="far fa-user icon"></i>
           </a>
         </div>
         <!-- ./user-controls -->
@@ -118,7 +123,7 @@
             href=""
             title="Wishlist"
           >
-            <i class="far fa-heart"></i>
+            <i class="far fa-heart icon"></i>
           </a>
         </div>
         <!-- ./wishlist-controls -->
@@ -128,7 +133,7 @@
             href=""
             title="My bag"
           >
-            <i class="fas fa-shopping-bag"></i>
+            <i class="fas fa-shopping-bag icon"></i>
           </a>
         </div>
         <!-- ./bag-controls -->
@@ -190,6 +195,7 @@
   <!-- ./header -->
 
   <main class="content">
+    <div class="line"></div>
     <section class="catalog-preview preview-1">
       <header>
         <h3>New Stuff</h3>
@@ -327,6 +333,7 @@
     </section>
     <!-- ./catalog-preview preview-1-->
 
+    <div class="line"></div>
     <section class="catalog-preview preview-2">
       <header>
         <h3>Most loved</h3>
@@ -348,7 +355,7 @@
                 href=""
                 title="Wishlist"
               >
-                <i class="far fa-heart"></i>
+                <i class="far fa-heart "></i>
               </a>
             </picture>
             <!-- ./product-image -->
@@ -490,6 +497,7 @@
     </section>
     <!-- ./product-presentation -->
 
+    <div class="line"></div>
     <section class="catalog-preview preview-3">
       <header>
         <h3>Men's</h3>
@@ -626,17 +634,17 @@
       </main>
       <!-- ./product-tiles -->
 
-      <footer>
-        <button
-          class="c2a"
+      <footer class="c2a">
+        <a
+          href=""
           title="view all"
-        >
-          view all
-        </button>
+        >view all
+        </a>
       </footer>
     </section>
     <!-- ./catalog-preview preview-3-->
 
+    <div class="line"></div>
     <section class="catalog-preview preview-4">
       <header>
         <h3>Women's</h3>
@@ -773,16 +781,6 @@
       </main>
       <!-- ./product-tiles -->
 
-      <footer>
-        <button
-          class="c2a"
-          title="view all"
-        >
-          view all
-        </button>
-      </footer>
-
-      <!-- Or is it better with anchor and style it in css (border etc...)?
       <footer class="c2a">
         <a
           href=""
@@ -790,7 +788,6 @@
         >view all
         </a>
       </footer>
-    -->
 
     </section>
     <!-- ./catalog-preview preview-4-->
@@ -798,156 +795,158 @@
   <!-- ./content -->
 
   <footer class="footer">
-    <section class="footer-contact">
-      <p>call us <br>
-        <a
-          href="+44 (0)10 2345 6789"
-          title="Call us"
-        >+44 (0)10 2345 6789</a> <br>
-        <a
-          href="#"
-          title="Email us"
-        >email customer care</a> <br>
-        <a
-          href=""
-          title="Mobile version"
-        >see mobile version</a>
-      </p>
-    </section>
-    <!-- ./footer-contact -->
-
-    <nav class="product-info">
-      <ul>
-        <li>
+    <div class="footer-container">
+      <section class="footer-contact">
+        <p>call us <br>
+          <a
+            href="+44 (0)10 2345 6789"
+            title="Call us"
+          >+44 (0)10 2345 6789</a> <br>
+          <a
+            href="#"
+            title="Email us"
+          >email customer care</a> <br>
           <a
             href=""
-            title="style & fit advice"
-          >style & fit advice</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="faqs"
-          >faqs</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="delivery"
-          >delivery</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="exchanges & returns"
-          >exchanges & returns</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- ./product-info -->
-
-    <nav class="brand-info">
-      <ul>
-        <li>
-          <a
-            href=""
-            title="about us"
-          >about us</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="careers"
-          >careers</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="affiliates"
-          >affiliates</a>
-        </li>
-
-        <li>
-          <a
-            href=""
-            title="advertising"
-          >advertising</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- ./brand-info -->
-
-    <div class="stay-in-touch">
-      <section class="footer-subscription">
-        <form>
-          <label for="sign-up">sign up for our newsletter</label>
-          <br>
-          <input
-            type="text"
-            id="sign-up"
-            name="sign-up"
-          > <br>
-          <button
-            type="submit"
-            name="submit"
-          >Submit
-          </button>
-        </form>
+            title="Mobile version"
+          >see mobile version</a>
+        </p>
       </section>
-      <!-- ./footer-subscription -->
+      <!-- ./footer-contact -->
 
-      <section class="footer-social">
+      <nav class="product-info">
         <ul>
           <li>
             <a
-              href="https://youtube.com"
-              title="Youtube"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fab fa-youtube"></i>
-            </a>
+              href=""
+              title="style & fit advice"
+            >style & fit advice</a>
           </li>
+
           <li>
             <a
-              href="https://twitter.com"
-              title="Twitter"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fab fa-twitter"></i>
-            </a>
+              href=""
+              title="faqs"
+            >faqs</a>
           </li>
+
           <li>
             <a
-              href="https://facebook.com"
-              title="Facebook"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fab fa-facebook-f"></i>
-            </a>
+              href=""
+              title="delivery"
+            >delivery</a>
           </li>
+
           <li>
             <a
-              href="https://instagram.com"
-              title="Instagram"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fab fa-instagram-square"></i>
-            </a>
+              href=""
+              title="exchanges & returns"
+            >exchanges & returns</a>
           </li>
         </ul>
-      </section>
-      <!-- ./footer-social -->
+      </nav>
+      <!-- ./product-info -->
+
+      <nav class="brand-info">
+        <ul>
+          <li>
+            <a
+              href=""
+              title="about us"
+            >about us</a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              title="careers"
+            >careers</a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              title="affiliates"
+            >affiliates</a>
+          </li>
+
+          <li>
+            <a
+              href=""
+              title="advertising"
+            >advertising</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- ./brand-info -->
+
+      <div class="stay-in-touch">
+        <section class="footer-subscription">
+          <form>
+            <label for="sign-up">sign up for our newsletter</label>
+            <br>
+            <input
+              type="text"
+              id="sign-up"
+              name="sign-up"
+            > <br>
+            <button
+              type="submit"
+              name="submit"
+            >Submit
+            </button>
+          </form>
+        </section>
+        <!-- ./footer-subscription -->
+
+        <section class="footer-social">
+          <ul>
+            <li>
+              <a
+                href="https://youtube.com"
+                title="Youtube"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com"
+                title="Twitter"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://facebook.com"
+                title="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://instagram.com"
+                title="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-instagram-square"></i>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <!-- ./footer-social -->
+      </div>
+      <!-- ./stay-in-touch -->
     </div>
-    <!-- ./stay-in-touch -->
   </footer>
   <!-- ./footer -->
 </body>

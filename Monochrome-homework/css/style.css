@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Playfair Display';
-  src: url('PlayfairDisplay-Regular.woff2') format('woff2'),
-    url('PlayfairDisplay-Regular.woff') format('woff');
+  src: url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'Playfair Display';
-  src: url('PlayfairDisplay-Medium.woff2') format('woff2'),
-    url('PlayfairDisplay-Medium.woff') format('woff');
+  src: url('../fonts/PlayfairDisplay-Medium.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: 'Playfair Display';
-  src: url('PlayfairDisplay-ExtraBold.woff2') format('woff2'),
-    url('PlayfairDisplay-ExtraBold.woff') format('woff');
+  src: url('../fonts/PlayfairDisplay-ExtraBold.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-ExtraBold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -27,8 +27,8 @@
 
 @font-face {
   font-family: 'Playfair Display';
-  src: url('PlayfairDisplay-SemiBold.woff2') format('woff2'),
-    url('PlayfairDisplay-SemiBold.woff') format('woff');
+  src: url('../fonts/PlayfairDisplay-SemiBold.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -36,8 +36,8 @@
 
 @font-face {
   font-family: 'Playfair Display';
-  src: url('PlayfairDisplay-Bold.woff2') format('woff2'),
-    url('PlayfairDisplay-Bold.woff') format('woff');
+  src: url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -45,8 +45,8 @@
 
 @font-face {
   font-family: 'Playfair Display';
-  src: url('PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
-    url('PlayfairDisplay-SemiBoldItalic.woff') format('woff');
+  src: url('../fonts/PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-SemiBoldItalic.woff') format('woff');
   font-weight: 600;
   font-style: italic;
   font-display: swap;
@@ -54,8 +54,8 @@
 
 @font-face {
   font-family: 'Playfair Display';
-  src: url('PlayfairDisplay-ExtraBoldItalic.woff2') format('woff2'),
-    url('PlayfairDisplay-ExtraBoldItalic.woff') format('woff');
+  src: url('../fonts/PlayfairDisplay-ExtraBoldItalic.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-ExtraBoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -63,8 +63,8 @@
 
 @font-face {
   font-family: 'Playfair Display';
-  src: url('PlayfairDisplay-BlackItalic.woff2') format('woff2'),
-    url('PlayfairDisplay-BlackItalic.woff') format('woff');
+  src: url('../fonts/PlayfairDisplay-BlackItalic.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-BlackItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -72,8 +72,8 @@
 
 @font-face {
   font-family: 'Playfair Display';
-  src: url('PlayfairDisplay-BoldItalic.woff2') format('woff2'),
-    url('PlayfairDisplay-BoldItalic.woff') format('woff');
+  src: url('../fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -81,8 +81,8 @@
 
 @font-face {
   font-family: 'Playfair Display';
-  src: url('PlayfairDisplay-MediumItalic.woff2') format('woff2'),
-    url('PlayfairDisplay-MediumItalic.woff') format('woff');
+  src: url('../fonts/PlayfairDisplay-MediumItalic.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-MediumItalic.woff') format('woff');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -90,8 +90,8 @@
 
 @font-face {
   font-family: 'Playfair Display';
-  src: url('PlayfairDisplay-Black.woff2') format('woff2'),
-    url('PlayfairDisplay-Black.woff') format('woff');
+  src: url('../fonts/PlayfairDisplay-Black.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -99,8 +99,8 @@
 
 @font-face {
   font-family: 'Playfair Display';
-  src: url('PlayfairDisplay-Italic.woff2') format('woff2'),
-    url('PlayfairDisplay-Italic.woff') format('woff');
+  src: url('../fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -108,8 +108,8 @@
 
 @font-face {
   font-family: 'Playfair Display SC';
-  src: url('PlayfairDisplaySC-Regular.woff2') format('woff2'),
-    url('PlayfairDisplaySC-Regular.woff') format('woff');
+  src: url('../fonts/PlayfairDisplaySC-Regular.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplaySC-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -117,8 +117,8 @@
 
 @font-face {
   font-family: 'Playfair Display SC';
-  src: url('PlayfairDisplaySC-Bold.woff2') format('woff2'),
-    url('PlayfairDisplaySC-Bold.woff') format('woff');
+  src: url('../fonts/PlayfairDisplaySC-Bold.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplaySC-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -126,8 +126,8 @@
 
 @font-face {
   font-family: 'Playfair Display SC';
-  src: url('PlayfairDisplaySC-BoldItalic.woff2') format('woff2'),
-    url('PlayfairDisplaySC-BoldItalic.woff') format('woff');
+  src: url('../fonts/PlayfairDisplaySC-BoldItalic.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplaySC-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -135,8 +135,8 @@
 
 @font-face {
   font-family: 'Playfair Display SC';
-  src: url('PlayfairDisplaySC-BlackItalic.woff2') format('woff2'),
-    url('PlayfairDisplaySC-BlackItalic.woff') format('woff');
+  src: url('../fonts/PlayfairDisplaySC-BlackItalic.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplaySC-BlackItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -144,8 +144,8 @@
 
 @font-face {
   font-family: 'Playfair Display SC';
-  src: url('PlayfairDisplaySC-Black.woff2') format('woff2'),
-    url('PlayfairDisplaySC-Black.woff') format('woff');
+  src: url('../fonts/PlayfairDisplaySC-Black.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplaySC-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -153,8 +153,8 @@
 
 @font-face {
   font-family: 'Playfair Display SC';
-  src: url('PlayfairDisplaySC-Italic.woff2') format('woff2'),
-    url('PlayfairDisplaySC-Italic.woff') format('woff');
+  src: url('../fonts/PlayfairDisplaySC-Italic.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplaySC-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -266,4 +266,405 @@
   font-weight: 300;
   font-style: normal;
   font-display: swap;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Roboto', 'Playfair Display';
+  color: #2b2b2b;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  width: 1356px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 500px;
+  min-width: 1920px;
+  background: transparent url('../images/banner.png') no-repeat center;
+  background-size: cover;
+}
+
+.header-top {
+  width: 100%;
+  max-width: 1078px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.header-top .header-contact {
+  float: left;
+  display: flex;
+}
+
+.header-top .header-contact a {
+  color: #e8e8e8;
+  margin: 0 13px;
+}
+
+.header-top .header-contact a:last-child {
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 37px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header-top .header-contact .header-social-contact li {
+  display: inline-block;
+}
+
+.header-top .header-controls {
+  float: right;
+  display: flex;
+}
+
+.header-top .header-controls .search-bar-controls button {
+  border: 1px solid #cccccc;
+  height: 48px;
+  width: 44px;
+}
+/*would've looked better if icon was inside the search bar*/
+.header-top .header-controls .search-bar-controls input {
+  border: 1px solid #cccccc;
+  width: 204px;
+  height: 44px;
+  font-size: 14px;
+  color: #2b2b2b;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.header-top .header-controls a:last-child {
+  margin: 0 13px;
+}
+
+.header-top .header-controls .icon {
+  color: #2b2b2b;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-left: 16px;
+}
+
+.header-bottom .menu-links ul {
+  text-align: center;
+  background-color: #2b2b2b;
+  position: relative;
+  margin-top: 450px;
+  height: 52px;
+}
+
+.header-bottom .menu-links li {
+  display: inline-flex;
+}
+
+.header-bottom .menu-links a {
+  text-decoration: none;
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  font-size: 19px;
+  color: #e8e8e8;
+  text-transform: uppercase;
+  padding: 15px 80px 11px 70px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+/*Footer*/
+
+.footer {
+  min-height: 249px;
+  min-width: 1920px;
+  background-color: #e8e8e8;
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 37px;
+  color: #2b2b2b;
+  padding-top: 40px;
+}
+
+.footer-container {
+  max-width: 1356px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer-contact a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.footer .footer-contact a:last-child {
+  text-decoration: underline;
+}
+
+.footer .product-info a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.footer .brand-info a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.footer .stay-in-touch .footer-subscription input {
+  border: none;
+  width: 261px;
+  height: 30px;
+}
+
+.footer .stay-in-touch .footer-subscription button {
+  width: 75px;
+  height: 25px;
+  border: 1px solid #2b2b2b;
+  text-transform: uppercase;
+}
+
+.footer .stay-in-touch .footer-social li {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.footer .stay-in-touch .footer-social a {
+  color: #2b2b2b;
+  padding: 0 3px;
+}
+
+/* Main */
+.line {
+  width: 1350px;
+  height: 0px;
+  border: 1px solid #cccccc;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+.content {
+  top: 60px;
+  width: 1356px;
+  margin: 60px auto;
+}
+
+.content > .catalog-preview > header h3 {
+  text-align: center;
+  font-family: 'Playfair Display';
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 23px;
+}
+.content > .preview-3 > header h3 {
+  text-transform: uppercase;
+}
+
+.content > .preview-4 > header h3 {
+  text-transform: uppercase;
+}
+
+.catalog-preview .product-tiles {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.product-presentation {
+  display: inline-flex;
+  margin-bottom: 140px;
+  margin-left: 8px;
+}
+
+.product-presentation .product-description > h2 {
+  font-family: 'Playfair Display';
+  font-weight: bold;
+  font-size: 44px;
+  text-align: right;
+  margin-right: 17px;
+}
+
+.product-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.product-presentation .product-description > p {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 22px;
+  color: #2b2b2b;
+  line-height: 43px;
+  margin: 34px 0 0 136px;
+  letter-spacing: 0.33px;
+}
+
+.product-image {
+  position: relative;
+}
+
+.product-image a:last-child {
+  position: absolute;
+  top: -265px;
+  right: 10px;
+  color: #2b2b2b;
+}
+
+.product-tiles .product-tile .product-details a {
+  font-family: 'Playfair Display';
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2b2b2b;
+  text-align: center;
+  padding: 2px;
+}
+.product-tiles .product-tile .product-details p {
+  font-family: 'Playfair Display';
+  font-weight: 300px;
+  font-size: 22px;
+  color: #2b2b2b;
+  text-align: center;
+}
+.catalog-preview .c2a {
+  text-align: center;
+  margin-bottom: 120px;
+}
+.catalog-preview > .c2a > a {
+  font-size: 22px;
+  letter-spacing: 0.88px;
+  color: #2b2b2b;
+  border: 1px solid #2b2b2b;
+  text-decoration: none;
+  padding: 10px;
 }
